@@ -2,11 +2,11 @@ import { useState } from "react";
 import TabBar from "../common/TabBar.jsx";
 import BackToTop from "../common/BackToTop.jsx";
 import Results from "./Results.jsx";
-// import JobMatch from "../jobmatch/JobMatch.jsx";
+import JobMatch from "../jobmatch/JobMatch.jsx";
 
 const TABS = [
   ["evaluation", "Resume Evaluation"],
-  // ["jd", "Job Description Match"],
+  ["jd", "Job Description Match"],
 ];
 
 /** Sticky tab bar. Both panels stay mounted so nothing is lost when switching tabs. */
@@ -26,9 +26,9 @@ export default function ResultsTabs({ result, learner }) {
       <div hidden={tab !== "evaluation"}>
         <Results result={result} learner={learner} />
       </div>
-      {/* <div hidden={tab !== "jd"}>
+      <div hidden={tab !== "jd"}>
         <JobMatch result={result} jd={jd} setJd={setJd} />
-      </div> */}
+      </div>
       <div className="back-wrap">
         <BackToTop />
       </div>
