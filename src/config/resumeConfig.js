@@ -57,7 +57,8 @@ const COURSE_CONFIG = {
           "insight",
           "report",
         ],
-        summaryFocus: "data analysis, reporting and dashboard development",
+        summaryFocus:
+          "data analysis, reporting and dashboard development",
       },
       "BI Analyst": {
         headline: [
@@ -86,7 +87,8 @@ const COURSE_CONFIG = {
           "data model",
           "insight",
         ],
-        summaryFocus: "business intelligence, dashboarding and KPI reporting",
+        summaryFocus:
+          "business intelligence, dashboarding and KPI reporting",
       },
       "Reporting Analyst": {
         headline: ["reporting analyst", "mis analyst", "data analyst"],
@@ -231,7 +233,8 @@ const COURSE_CONFIG = {
           "classification",
           "regression",
         ],
-        summaryFocus: "data exploration, preprocessing and predictive modeling",
+        summaryFocus:
+          "data exploration, preprocessing and predictive modeling",
       },
     },
     certs: ["Advanced Program in Data Science"],
@@ -273,7 +276,13 @@ const COURSE_CONFIG = {
           ["rest api", "api"],
           ["jwt", "authentication"],
         ],
-        concepts: ["crud", "frontend", "backend", "database", "deployment"],
+        concepts: [
+          "crud",
+          "frontend",
+          "backend",
+          "database",
+          "deployment",
+        ],
         project: [
           "react",
           "node",
@@ -297,7 +306,13 @@ const COURSE_CONFIG = {
           ["sql", "mongodb"],
           ["jwt", "authentication"],
         ],
-        concepts: ["database", "rest api", "backend", "testing", "deployment"],
+        concepts: [
+          "database",
+          "rest api",
+          "backend",
+          "testing",
+          "deployment",
+        ],
         project: [
           "node",
           "express",
@@ -322,7 +337,12 @@ const COURSE_CONFIG = {
           ["responsive design", "responsive"],
           ["redux", "state management"],
         ],
-        concepts: ["ui", "api integration", "accessibility", "deployment"],
+        concepts: [
+          "ui",
+          "api integration",
+          "accessibility",
+          "deployment",
+        ],
         project: [
           "react",
           "javascript",
@@ -471,7 +491,8 @@ const COURSE_CONFIG = {
           "fastapi",
           "testing",
         ],
-        summaryFocus: "Python application development and problem solving",
+        summaryFocus:
+          "Python application development and problem solving",
       },
       "Python Backend Developer": {
         headline: [
@@ -515,8 +536,20 @@ const COURSE_CONFIG = {
           ["django", "flask", "fastapi"],
           ["testing", "debugging"],
         ],
-        concepts: ["data structures", "database", "api", "problem solving"],
-        project: ["python", "oop", "database", "api", "testing", "debugging"],
+        concepts: [
+          "data structures",
+          "database",
+          "api",
+          "problem solving",
+        ],
+        project: [
+          "python",
+          "oop",
+          "database",
+          "api",
+          "testing",
+          "debugging",
+        ],
         summaryFocus:
           "software development using Python and core programming concepts",
       },
@@ -538,7 +571,11 @@ const COURSE_CONFIG = {
   "UI UX": {
     roles: {
       "UI/UX Designer": {
-        headline: ["ui ux designer", "ui/ux designer", "product designer"],
+        headline: [
+          "ui ux designer",
+          "ui/ux designer",
+          "product designer",
+        ],
         must: ["figma", "wireframing", "prototyping", "user research"],
         alt: [
           ["usability testing", "user testing"],
@@ -562,10 +599,15 @@ const COURSE_CONFIG = {
           "problem",
           "solution",
         ],
-        summaryFocus: "user-centred interface design and UX problem solving",
+        summaryFocus:
+          "user-centred interface design and UX problem solving",
       },
       "UX Designer": {
-        headline: ["ux designer", "user experience designer", "ui ux designer"],
+        headline: [
+          "ux designer",
+          "user experience designer",
+          "ui ux designer",
+        ],
         must: ["user research", "wireframing", "prototyping", "figma"],
         alt: [
           ["usability testing", "user testing"],
@@ -611,7 +653,8 @@ const COURSE_CONFIG = {
           "responsive",
           "component",
         ],
-        summaryFocus: "visual interface design, design systems and prototyping",
+        summaryFocus:
+          "visual interface design, design systems and prototyping",
       },
       "Product Designer": {
         headline: ["product designer", "ui ux designer", "ux designer"],
@@ -635,7 +678,8 @@ const COURSE_CONFIG = {
           "usability",
           "solution",
         ],
-        summaryFocus: "product design, research and end-to-end user experience",
+        summaryFocus:
+          "product design, research and end-to-end user experience",
       },
     },
     certs: ["UI/UX Design with AI"],
@@ -710,18 +754,35 @@ const COURSE_CONFIG = {
           "mobile",
           "app",
         ],
-        summaryFocus: "mobile application development and API integration",
+        summaryFocus:
+          "mobile application development and API integration",
       },
       "Dart Developer": {
-        headline: ["dart developer", "flutter developer", "mobile developer"],
+        headline: [
+          "dart developer",
+          "flutter developer",
+          "mobile developer",
+        ],
         must: ["dart", "flutter", "git"],
         alt: [
           ["firebase", "sqlite"],
           ["provider", "bloc", "riverpod"],
         ],
-        concepts: ["oop", "state management", "api integration", "debugging"],
-        project: ["dart", "flutter", "api", "state management", "firebase"],
-        summaryFocus: "Dart programming and Flutter application development",
+        concepts: [
+          "oop",
+          "state management",
+          "api integration",
+          "debugging",
+        ],
+        project: [
+          "dart",
+          "flutter",
+          "api",
+          "state management",
+          "firebase",
+        ],
+        summaryFocus:
+          "Dart programming and Flutter application development",
       },
     },
     certs: [],
@@ -809,7 +870,8 @@ const COURSE_CONFIG = {
           "wazuh",
           "analysis",
         ],
-        summaryFocus: "security operations, log analysis and incident response",
+        summaryFocus:
+          "security operations, log analysis and incident response",
       },
       "VAPT Analyst": {
         headline: [
@@ -866,8 +928,18 @@ const COURSE_CONFIG = {
   "Software Testing": {
     roles: {
       "Software Tester": {
-        headline: ["software tester", "software test engineer", "qa tester"],
-        must: ["software testing", "test cases", "bug reporting", "sql", "git"],
+        headline: [
+          "software tester",
+          "software test engineer",
+          "qa tester",
+        ],
+        must: [
+          "software testing",
+          "test cases",
+          "bug reporting",
+          "sql",
+          "git",
+        ],
         alt: [
           ["manual testing", "functional testing"],
           ["postman", "api testing"],
@@ -931,7 +1003,12 @@ const COURSE_CONFIG = {
           "test automation engineer",
           "qa automation engineer",
         ],
-        must: ["software testing", "automation testing", "selenium", "git"],
+        must: [
+          "software testing",
+          "automation testing",
+          "selenium",
+          "git",
+        ],
         alt: [
           ["playwright", "cypress"],
           ["java", "javascript", "python"],
@@ -955,177 +1032,12 @@ const COURSE_CONFIG = {
         summaryFocus:
           "test automation, regression testing and quality engineering",
       },
-      "Playwright Automation": {
-        roles: {
-          "Playwright Automation Tester": {
-            headline: [
-              "playwright automation tester",
-              "automation tester",
-              "qa automation engineer",
-              "test automation engineer",
-            ],
-            must: [
-              "playwright",
-              "automation testing",
-              "javascript",
-              "test cases",
-              "git",
-              "github",
-            ],
-            alt: [
-              ["typescript", "javascript"],
-              ["api testing", "postman"],
-            ],
-            concepts: [
-              "page object model",
-              "regression testing",
-              "test suite",
-              "cross browser testing",
-              "ci/cd",
-            ],
-            project: [
-              "playwright",
-              "automation",
-              "test suite",
-              "test cases",
-              "page object model",
-              "regression",
-              "locators",
-              "assertions",
-              "report",
-            ],
-            summaryFocus:
-              "web test automation, regression testing and quality engineering with Playwright",
-          },
-          "QA Automation Engineer": {
-            headline: [
-              "qa automation engineer",
-              "automation engineer",
-              "test automation engineer",
-            ],
-            must: [
-              "playwright",
-              "automation testing",
-              "software testing",
-              "api testing",
-              "git",
-            ],
-            alt: [
-              ["javascript", "typescript"],
-              ["github actions", "jenkins", "ci/cd"],
-            ],
-            concepts: [
-              "regression testing",
-              "page object model",
-              "test reporting",
-              "defect tracking",
-            ],
-            project: [
-              "playwright",
-              "automation",
-              "api testing",
-              "regression",
-              "test suite",
-              "ci/cd",
-              "github actions",
-              "bug",
-            ],
-            summaryFocus:
-              "test automation frameworks, API testing and CI-integrated quality assurance",
-          },
-          "SDET Trainee": {
-            headline: [
-              "sdet trainee",
-              "sdet",
-              "software development engineer in test",
-              "automation tester",
-            ],
-            must: [
-              "playwright",
-              "javascript",
-              "automation testing",
-              "git",
-              "github",
-            ],
-            alt: [
-              ["typescript", "python", "java"],
-              ["api testing", "postman"],
-            ],
-            concepts: [
-              "test framework",
-              "page object model",
-              "data driven testing",
-              "ci/cd",
-              "debugging",
-            ],
-            project: [
-              "playwright",
-              "framework",
-              "automation",
-              "page object model",
-              "data driven",
-              "ci/cd",
-              "test suite",
-              "api",
-            ],
-            summaryFocus:
-              "building test automation frameworks and scalable test suites with Playwright",
-          },
-          "Software Tester": {
-            headline: [
-              "software tester",
-              "software test engineer",
-              "qa tester",
-            ],
-            must: [
-              "software testing",
-              "test cases",
-              "bug reporting",
-              "playwright",
-              "git",
-            ],
-            alt: [
-              ["manual testing", "functional testing"],
-              ["postman", "api testing"],
-            ],
-            concepts: [
-              "test scenarios",
-              "regression testing",
-              "smoke testing",
-              "defect lifecycle",
-            ],
-            project: [
-              "test cases",
-              "test scenarios",
-              "bug",
-              "defect",
-              "playwright",
-              "automation",
-              "regression",
-            ],
-            summaryFocus:
-              "software testing, defect identification and test automation with Playwright",
-          },
-        },
-        certs: [
-          "Playwright Automation Testing",
-          "Playwright Automation Testing Masterclass",
-        ],
-        education: [
-          "computer science",
-          "information technology",
-          "bca",
-          "b.sc computer",
-          "btech",
-          "b.tech",
-          "engineering",
-          "software",
-          "computer application",
-        ],
-        projectLinks: "optional",
-      },
       "API Tester": {
-        headline: ["api tester", "api testing engineer", "software tester"],
+        headline: [
+          "api tester",
+          "api testing engineer",
+          "software tester",
+        ],
         must: ["api testing", "postman", "rest api", "test cases", "sql"],
         alt: [
           ["automation testing", "manual testing"],
@@ -1148,8 +1060,49 @@ const COURSE_CONFIG = {
         ],
         summaryFocus: "API testing, test design and quality assurance",
       },
+      "Playwright Tester": {
+        headline: [
+          "playwright tester",
+          "playwright automation engineer",
+          "automation tester",
+          "qa automation engineer",
+        ],
+        must: [
+          "software testing",
+          "automation testing",
+          "playwright",
+          "git",
+        ],
+        alt: [
+          ["javascript", "typescript", "python", "java"],
+          ["api testing", "postman", "cypress", "selenium"],
+        ],
+        concepts: [
+          "test automation",
+          "page object model",
+          "regression testing",
+          "test suite",
+          "ci/cd",
+        ],
+        project: [
+          "playwright",
+          "automation",
+          "test suite",
+          "test cases",
+          "regression",
+          "page object",
+          "javascript",
+          "typescript",
+          "ci/cd",
+        ],
+        summaryFocus:
+          "browser test automation with Playwright, regression testing and quality engineering",
+      },
     },
-    certs: ["AI Powered Software Testing", "Playwright Automation Testing"],
+    certs: [
+      "AI Powered Software Testing",
+      "Playwright Automation Testing",
+    ],
     education: [
       "computer science",
       "information technology",
@@ -1182,7 +1135,13 @@ const COURSE_CONFIG = {
           ["rest api", "api"],
           ["jwt", "authentication"],
         ],
-        concepts: ["crud", "frontend", "backend", "database", "deployment"],
+        concepts: [
+          "crud",
+          "frontend",
+          "backend",
+          "database",
+          "deployment",
+        ],
         project: [
           "react",
           "node",
@@ -1206,7 +1165,13 @@ const COURSE_CONFIG = {
           ["sql", "mongodb"],
           ["jwt", "authentication"],
         ],
-        concepts: ["database", "rest api", "backend", "testing", "deployment"],
+        concepts: [
+          "database",
+          "rest api",
+          "backend",
+          "testing",
+          "deployment",
+        ],
         project: [
           "node",
           "express",
@@ -1231,7 +1196,12 @@ const COURSE_CONFIG = {
           ["responsive design", "responsive"],
           ["redux", "state management"],
         ],
-        concepts: ["ui", "api integration", "accessibility", "deployment"],
+        concepts: [
+          "ui",
+          "api integration",
+          "accessibility",
+          "deployment",
+        ],
         project: [
           "react",
           "javascript",
@@ -1353,7 +1323,11 @@ const COURSE_CONFIG = {
   "AWS Cloud": {
     roles: {
       "AWS Cloud Engineer": {
-        headline: ["aws cloud engineer", "cloud engineer", "aws engineer"],
+        headline: [
+          "aws cloud engineer",
+          "cloud engineer",
+          "aws engineer",
+        ],
         must: ["aws", "ec2", "s3", "iam", "linux", "git"],
         alt: [
           ["cloudwatch", "monitoring"],
@@ -1365,7 +1339,15 @@ const COURSE_CONFIG = {
           "scalability",
           "high availability",
         ],
-        project: ["aws", "ec2", "s3", "iam", "vpc", "deployment", "cloudwatch"],
+        project: [
+          "aws",
+          "ec2",
+          "s3",
+          "iam",
+          "vpc",
+          "deployment",
+          "cloudwatch",
+        ],
         summaryFocus:
           "AWS cloud deployment, infrastructure and cloud operations",
       },
@@ -1409,7 +1391,12 @@ const COURSE_CONFIG = {
           ["github actions", "jenkins"],
           ["terraform", "ansible"],
         ],
-        concepts: ["deployment", "automation", "containers", "monitoring"],
+        concepts: [
+          "deployment",
+          "automation",
+          "containers",
+          "monitoring",
+        ],
         project: [
           "aws",
           "docker",
@@ -1439,8 +1426,17 @@ const COURSE_CONFIG = {
           "networking",
           "security",
         ],
-        project: ["aws", "ec2", "s3", "linux", "deployment", "vpc", "iam"],
-        summaryFocus: "AWS cloud fundamentals, deployment and infrastructure",
+        project: [
+          "aws",
+          "ec2",
+          "s3",
+          "linux",
+          "deployment",
+          "vpc",
+          "iam",
+        ],
+        summaryFocus:
+          "AWS cloud fundamentals, deployment and infrastructure",
       },
     },
     certs: ["AWS Solutions Architect"],
@@ -1498,7 +1494,12 @@ const COURSE_CONFIG = {
           ["mysql", "postgresql"],
           ["hibernate", "jpa"],
         ],
-        concepts: ["backend", "authentication", "microservices", "testing"],
+        concepts: [
+          "backend",
+          "authentication",
+          "microservices",
+          "testing",
+        ],
         project: [
           "java",
           "spring boot",
@@ -1557,7 +1558,15 @@ const COURSE_CONFIG = {
           "exception handling",
           "problem solving",
         ],
-        project: ["java", "oops", "sql", "crud", "api", "testing", "debugging"],
+        project: [
+          "java",
+          "oops",
+          "sql",
+          "crud",
+          "api",
+          "testing",
+          "debugging",
+        ],
         summaryFocus:
           "Java programming, problem solving and application development",
       },
